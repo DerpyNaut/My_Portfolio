@@ -55,6 +55,11 @@ a:hover {
   color: white
 }
 
+ul li a {
+  text-decoration: underline;
+  color: white;
+}
+
 header {
   text-align: center;
   background: url('images/background.jpg') no-repeat top center ;
@@ -70,11 +75,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 3px solid yellow;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -102,13 +107,21 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.projectH2 {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 10px;
   display: inline-block;
   background: #ff9904;
   color: white;
